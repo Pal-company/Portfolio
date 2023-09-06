@@ -1,0 +1,203 @@
+body {
+    background-color: #C6EBC5;
+    margin: 0; /* Add this to remove default body margin */
+  }
+  
+  .container { /* Correct the class name here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your desired height */
+    flex-direction: column; /* Center content vertically */
+  }
+  
+  .par {
+    padding: 7px;
+    color: #FBF2CF;
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .welcome {
+    color: #FBF2CF;
+    font-size: 5.625rem;
+    margin-top: 50px; /* Use margin-top instead of margin */
+    font-family: "Sacramento", cursive;
+  }
+  
+  .pro {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #FA7070; /* Change background color of hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 230px;
+  }
+  
+  .about {
+    background-color: #C6EBC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your desired height */
+  }
+  
+  .me {
+    /* No need for this, as "me" is already centered inside "about" */
+  }
+  
+  .pfp {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 50%; /* Make the image circular if needed */
+  }
+
+  .my {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-decoration: overline;
+    
+  }
+
+  .aboutme {
+    color: #40514e;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+  }
+
+  .skills {
+    display: flex;
+    justify-content: left; /* Center content horizontally */
+    align-items: left;
+    height: 100vh;
+    background-color: #C6EBC5;
+  }
+  
+  .computer {
+    height: 350px; /* Add "px" for height and width values */
+    width: 350px; /* Add "px" for height and width values */
+    margin-right: 20px;
+    margin-top: 120px; /* Add margin to separate the image from text */
+  }
+  
+  .Title {
+    color: #40514e;
+ /* Decrease font size for better alignment */
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    padding-top: 140px;
+    text-align: center;
+    display: block;
+    font-size: 2.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+     /* Add margin to separate text from image */
+  }
+  
+  .myskills {
+    color: #40514e;
+    display: block;
+    font-weight: bolder;
+    font-size: medium;
+    font-size: 2.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; /* Add margin to separate text from title */
+  }
+
+
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Adjust the height as needed */
+}
+
+.contact {
+    text-align: center;
+}
+
+
+.contactme {
+    font-size: 3.17em;
+    font-weight: bolder;
+}
+  .more {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #40514e;
+    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+  
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: bolder;
+}
+  
+
+
