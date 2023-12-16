@@ -198,3 +198,39 @@ body {
 .copyright {
     font-weight: bolder;
 }
+
+/* Navigation Bar Styles */
+header {
+  background-color: #FA7070; /* Set the background color using the provided theme color */
+  color: #fff; /* Change the text color for better readability */
+  padding: 15px 0; /* Adjust padding as needed */
+  font-family: "Sacramento", cursive;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin for the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #66bfbf; /* Change link color */
+  font-weight: bold; /* Adjust font weight as desired */
+  transition: color 0.3s ease; /* Smooth transition effect */
+  font-family: "Sacramento", cursive;
+}
+
+nav ul li a:hover {
+  color: white; /* Change color on hover */
+}

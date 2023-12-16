@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naol Demisse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section class="hero">
-      <div class="contaniner">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naol Demisse</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+   /* Navigation Bar Styles */
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
         <h1 class="welcome">I'm Naol</h1>
-        <h2 class="par">a <span class="pro">pro</span>grammer.</h2>
+        <h2 class="par">a <span class="pro">programmer</span>.</h2>
       </div>
-      </section>
+    </section>
 
+    <section id="about" class="about">
+      <div class="me">
+        <img src="unnamed.jpg" alt="Profile Picture" class="pfp">
+        <h2 class="my">Hello.</h2>
+        <p class="aboutme">I am a self-taught <span class="myself">Web Developer</span> and</p>
+        <p class="aboutme">the founder and CEO of Excheat.</p>
+      </div>
+    </section>
 
-      <section class="about">
-        <div class="me">
-          <img src="unnamed.jpg" alt="profile-picture" class="pfp">
-          <h2 class="my">Hello.</h2>
-          <p class="aboutme">I am a self-tought <span class="myself">Web Developer</span> And</p>
-          <p class="aboutme">The founder and CEO of Excheat</p>
-        </div>
-      </section>
-      <hr>
-      <section class="skills">
-        <div class="computer">
-          <img src="cat-typing.gif" alt="A desktop computer">
-        </div>
-        <div class="text-container">
-          <h3 class="Title">Web development and Design</h3>
-          <p class="myskills">What I can really do is code a website and design. That's how I made this website.</p>
-        </div>
-                <div class="contact">
-            <h1 class="contactme">Get In touch</h1>
-            <p class="more">
-                If you want to know more about me
-                and play some coding like is not a
-                game but just push the button.
-            </p>
-            <a href="mailto:naoldemisse14@gmail.com" class="btn">Contact Me</a>
-        </div>
-      </section>
+    <hr>
+
+    <section id="skills" class="skills">
+      <div class="computer">
+        <img src="cat-typing.gif" alt="A desktop computer">
+      </div>
+      <div class="text-container">
+        <h3 class="title">Web Development and Design</h3>
+        <p class="myskills">What I can really do is code a website and design. That's how I made this website.</p>
+      </div>
+      <div class="contact">
+        <h1 class="contactme">Get In touch</h1>
+        <p class="more">
+          If you want to know more about me and play some coding like is not a game but just push the button.
+        </p>
+        <a href="mailto:naoldemisse14@gmail.com" class="btn">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
     <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/naol-demisse-871b8b28a/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/MifiCode">Twitter</a>
-        <a class="footer-link" href="https://naold.netlify.app">Website</a>
-        <form action="https://www.paypal.com/donate" method="post" target="_top">
-          <input type="hidden" name="business" value="keithjohn1994@gmail.com">
-          <input type="hidden" name="currency_code" value="USD">
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
-          <img alt="" border="0" src="https://www.paypal.com/en_ET/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        <p class="copyright">© Naol.D @ ExCheat.</p>
-      </div>
-      
-      
-  </body>
+      <a class="footer-link" href="https://www.linkedin.com/in/naol-demisse-871b8b28a/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/MifiCode">Twitter</a>
+      <a class="footer-link" href="https://naold.netlify.app">Website</a>
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="business" value="keithjohn1994@gmail.com">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+        <img alt="" border="0" src="https://www.paypal.com/en_ET/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      <p class="copyright">© Naol.D @ ExCheat.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+  
+        const targetId = this.getAttribute('href');
+  
+        document.querySelector(targetId).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
+</body>
 </html>
